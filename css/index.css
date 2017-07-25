@@ -1,0 +1,536 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.slide_1{
+	background: url(../images/pic4.png);
+	background-size: cover;
+	position: relative;
+}
+.slide_1_tubiao{
+	padding: 1% 0 0 6%;
+}
+.slide_1_tubiao img{
+	display: inline-block;
+	width: 1.8rem;
+	height: 0.65rem;
+}
+.slide_1_kelei{
+	overflow: hidden;
+	margin: -12% auto 0;
+	width: 6.96rem;
+	height: 7.48rem;
+	text-align: center;
+	background: url(../images/pic2.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.slide_1_kelei img{
+	display:block;
+	width: 6.96rem;
+	height: 7.48rem;
+}
+.slide_1_r{
+	overflow: hidden;
+	position: absolute;
+	left: 17%;
+	top: 14%;
+	width: 4.7rem;
+	height: 4.7rem;
+	overflow: hidden;
+	text-align: center;
+	animation: crycle 3s linear infinite;
+}
+.slide_1_r img{
+	display: inline-block;
+	width: 4.6rem;
+	height: 4.6rem;
+}
+@keyframes crycle{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+.slide_1_left img,.slide_1_right img{
+	display: inline-block;
+	width: 7.16rem;
+	height: 7.68rem;
+}
+.slide_1_left,.slide_1_right{
+	position: absolute;
+}
+.slide_1_left{
+	left: 5%;
+	top: 7%;
+}
+.slide_1_right{
+	right: 5%;
+	top: 2%;
+}
+.slide_1_car{
+	position: absolute;
+	left: 0%;
+	bottom: -2%;
+}
+.slide_1_car img{
+	display: inline-block;
+	width: 100%;
+	height: 6.12rem;
+}
+.slide_music{
+	position: absolute;
+	right: 6%;
+	bottom: 38%;
+	z-index: 100;
+}
+.music_rotate{
+	animation: crycle 2s linear infinite;
+}
+.slide_music img{
+	display: block;
+	width: 0.9rem;
+	height: 1.1rem;
+}
+.slide_1_jiantou{
+	position: absolute;
+	left: 45%;
+	bottom: 0;
+	animation: move 1s linear infinite;
+	z-index: 100;
+}
+.slide_1_jiantou img{
+	display: inline-block;
+	width: 0.8rem;
+	height: 0.7rem;
+}
+@keyframes move{
+	from{bottom: 0%;}
+	to{bottom:3%;}
+}
+.slide_2{
+	background: url(../images/twoback.png);
+	background-size: cover;
+	position: relative;
+}
+.slide_2_text{
+	text-align: center;
+	padding-top: 32%;
+}
+.slide_2_text img{
+	display: inline-block;
+	width: 3.8rem;
+	height: 2rem;
+}
+.slide_2_car{
+	margin: 30% 0 0 7%;
+}
+.slide_2_car img{
+	display: inline-block;
+	width: 6.7rem;
+	height: 4.3rem;
+}
+.slide_3{
+	background: url(../images/twopic2.png);
+	background-size: cover;
+	position: relative;
+}
+.slide_3_car{
+	position: absolute;
+	left: -31%;
+	bottom:-12%;
+	overflow: hidden;
+	width: 16.76rem;
+	height: 10.53rem;
+	background: url(../images/bigcar.png) 0 0 no-repeat;
+	background-size: 16.76rem 10.53rem;
+}
+.slide_3_cheshen{
+	margin: 8% 0 0 5%;
+	background: url(../images/twopic1.png) 0 0 no-repeat;
+	background-size: 2.83rem 2.83rem;
+	width: 2.83rem;
+	height: 2.83rem;
+	text-align: center;
+}
+.slide_3_cheshen img{
+	margin: 6% 0 0 2%;
+	display: inline-block;
+	width: 2.53rem;
+	height: 2.53rem;
+}
+.slide_3_r{
+	position: absolute;
+	left: 7%;
+	top: 6%;
+	overflow: hidden;
+	width: 2.56rem;
+	height: 2.56rem;
+	background: url(../images/rotate1.png) 0 0  no-repeat;
+	background-size:2.56rem 2.56rem ;
+	animation: crycle 2s linear infinite;
+}
+.slide_3_show p{
+	font-size: 26px;
+	color: #000000;
+	height: 5%;
+	border-bottom: 1px solid #000000;
+	position: absolute;
+	z-index: 5;
+}
+.slide_3_face{
+	width: 36%;
+	left: 44%;
+	top: 10%;
+}
+.slide_3_deng{
+	left: 32%;
+	top: 20%;
+	width: 27%;
+	padding-left: 9%;
+}
+.slide_3_lunzi{
+	width: 36%;
+	left: 12%;
+	top: 28%;
+}
+.slide_3_hand,.slide_5_hand{
+	position: absolute;
+	left: 60%;
+	top: 13%;
+	background: url(../images/hand.png) 0 0  no-repeat;
+	background-size: 100% 100%;
+	width: 13%;
+	height: 8%;
+	animation: move1 1s linear infinite;
+	display: none;
+}
+@keyframes move1{
+	from{left: 60%;top: 13%;}
+	to{left: 55%;top: 11%;}
+}
+.slide_3_light{
+	position: absolute;
+	left: 18%;
+	bottom: 14%;
+	width: 3.45rem;
+	height: 4.52rem;
+	background: url(../images/bigcarlight.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	z-index: 5;
+	display: none;
+}
+.slide_4{
+	background: #000000;
+	background-size: cover;
+}
+.slide_4_title{
+	margin-top: 5%;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	width: 100%;
+}
+#box{
+	width: 6.4rem;
+	height: 4.8rem;
+	position: absolute;
+	left: 0;
+	top: 1rem;
+	margin: 4% 0 0 8%;
+}
+#box img{
+	width: 6.4rem;
+	height: 4.8rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+#box img:first-child{
+	display: block;
+}
+.slide_4_tool div{
+	position: absolute;
+	top: 43%;
+}
+.slide_4_xuanzhuan{
+	left: 17%;
+	background: url(../images/img/car/360.png) 0 0 no-repeat;
+	background-size:1.1rem 1.13rem;
+	width: 1.1rem;
+	height: 1.13rem;
+}
+.slide_4_fangda{
+	left: 44%;
+	background: url(../images/img/car/jia.png) 0 0 no-repeat;
+	background-size: 1.2rem 1.25rem;
+	width: 1.2rem;
+	height: 1.25rem;
+}
+.slide_4_suoxiao{
+	left: 72%;
+	background: url(../images/img/car/jian.png) 0 0 no-repeat;
+	background-size: 1.2rem 1.25rem;
+	width: 1.2rem;
+	height: 1.25rem;
+}
+.slide_5{
+	background: url(../images/threepic1.png) 0 0 no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.slide_5_sun{
+	overflow: hidden;
+	position: absolute;
+	left: -5%;
+	top: -12%;
+	background: url(../images/sun.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 200%;
+	height: 130%;
+}
+.slide_5_car{
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+	background: url(../images/threepic2s.png) 0 0 no-repeat;
+	background-size:100% 100% ;
+	width: 100%;
+	height: 6.8rem;
+}
+.slide_5_text p{
+	position: absolute;
+	z-index: 10;
+}
+.slide_5_text1{
+	left: 10%;
+	top: 8%;
+	
+}
+.slide_5_text1 img{
+	display: inline-block;
+	width: 3.85rem;
+	height: 0.75rem;
+}
+.slide_5_text2{
+	left: 10%;
+	top:20%;
+}
+.slide_5_text2 img{
+	display: inline-block;
+	width: 5.99rem;
+	height: 1.75rem;
+}
+.slide_5_sun p{
+	position: absolute;
+	z-index: 10;
+	display: none;
+}
+.slide_5_suna{
+	left: 8%;
+	top: 27%;
+}
+.slide_5_suna img{
+	display: inline-block;
+	width: 5.73rem;
+	height: 3.45rem;
+}
+.slide_5_sunb{
+	left: 6%;
+	top: 55%;
+}
+.slide_5_sunb img{
+	display: inline-block;
+	width: 6.4rem;
+	height:4.79rem;
+	
+}
+.slide_5_sunc{
+	left:0%;
+	top: 9%;
+}
+.slide_5_sunc img{
+	display: inline-block;
+	width: 7.58rem;
+	height: 4.32rem;
+}
+.slide_5_sund{
+	left: 8%;
+	bottom: 18%;
+}
+.slide_5_sund img{
+	display: inline-block;
+	width: 5.89rem;
+	height:4.26rem;
+}
+.slide_6{
+	background: url(../images/threepic1.png) 0 0 no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.slide_6_mengceng{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: 0.7;
+}
+.slide_6_circle{
+	position: absolute;
+	left:33%;
+	top: 25%;
+	background: url(../images/fourbc.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width:2.45rem;
+	height: 2.45rem;
+	animation: crycle 2s linear infinite;
+}
+.slide_6_dianji{
+	position: absolute;
+	left: 33%;
+	top: 24%;
+	width:2.45rem;
+	height: 2.45rem;
+	line-height: 2.5rem;
+	font-size: 24px;
+	text-align: center;
+	animation: fangda 1s linear infinite;
+}
+@keyframes fangda{
+	from{font-size: 24px;}
+	to{font-size: 34px;}
+}
+.slide_7{
+	background: #000000;
+	background-size: cover;
+	position: relative;
+}
+.slide_7_img1 img{
+	display: inline-block;
+	width: 100%;
+	height: 70%;
+}
+.slide_7_img2 img{
+	display: inline-block;
+	width:70%;
+	height: 25%;
+}
+.slide_7_hand{
+	position: absolute;
+	left: 34%;
+	top: 87%;
+	left: 60%;
+	top: 13%;
+	background: url(../images/hand.png) 0 0  no-repeat;
+	background-size: 100% 100%;
+	width: 13%;
+	height: 8%;
+	animation: move2 1s linear infinite;
+	display: none;
+}
+@keyframes move2{
+	from{left: 34%;top: 87%;}
+	to{left: 30%;top: 85%;}
+}
+.slide_8{
+	background: url(../images/sixpic1s.png);
+	background-size: cover;
+	position: relative;
+}
+.slide_8_h4{
+	margin: -1% 0 0 0%;
+}
+.slide_8_h4 img{
+	display: inline-block;
+	width:100%;
+	height:7.36rem;
+}
+.slide_8_h{
+	height: 100%;
+}
+.slide_8_h1{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	display:block;
+	width:100%;
+	height:36%;
+}
+.slide_8_h2{
+	display:block;
+	width:90%;
+	height:23%;
+	position: absolute;
+	left: 0%;
+	top: 36%;
+	z-index: 5;
+}
+.slide_8_h3{
+	display:block;
+	width:100%;
+	height:40%;
+	position: absolute;
+	left: 0%;
+	top: 50%;
+}
+.slide_9{
+	background: #000000;
+	background-size: cover;
+}
+.slide_9_s1{
+	display: block;
+	width:100%;
+	height:30%;
+}
+.slide_9_s2{
+	display:block;
+	width:100%;
+	height:33%;
+}
+.slide_9_s3{
+	display:block;
+	width:100%;
+	height:37%;
+}
+.slide_10{
+	background: url(../images/eightbc.png);
+	background-size: cover;
+}
+.slide_10_title{
+	margin-top: 30%;
+	text-align: center;
+	font-size: 28px;
+}
+.slide_10_content{
+	width: 70%;
+	margin: 9% auto 0;
+}
+.slide_10_content p{
+	overflow: hidden;
+	font-size: 16px;
+	margin:3% auto 0;
+}
+.slide_10_content p span,.slide_10_text1,.slide_10_text2,.slide_10_text3{
+	float: left;
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+.slide_10_content p span{
+	margin-right: 0.3rem;
+}
+.slide_10_text1,.slide_10_text2,.slide_10_text3{
+	width: 75%;
+	border: 1px solid #a5aeb7;
+	background-color: #c7ddef;
+}
+.slide_10_tijiao{
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	background: #ff6600;
+	width: 53%;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	border-radius: 0.08rem;
+	margin: 5% 0 0 27%;
+}
